@@ -1,0 +1,27 @@
+.fundo{
+background:royalblue;
+margin:0px;
+width:100%;
+text-align:center;
+}
+.menu{
+background-color:lightgrey;
+width:100%;
+display: flex;
+}
+.monstro{
+font-size:850%;
+}
+.menu ul li{
+text-align:center;
+font-size:130%;
+}
+.menu ul li a{
+color: #333;
+}
+.botao{
+    background-color:transparent;
+    border-color:transparent;
+	font-size: large;
+}
+

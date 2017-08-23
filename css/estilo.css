@@ -1,0 +1,78 @@
+.fundo{
+background:royalblue;
+margin:0px;
+width:100%;
+}
+.menu{
+background-color:lightgrey;
+width:100%;
+display: flex;
+}
+nav.navbar.fundo {
+  text-align: center;
+}
+.menu ul li:first-child{
+margin-left:20%;
+}
+.menu ul li{
+width:15%;
+text-align:center;
+font-size:150%;
+}
+.menu ul li a{
+color: #333;
+}
+.formlogin{
+  width: 300;
+    margin-left: 39%;
+}
+.cadas{
+  margin-right: 35;
+}
+.formlembrar{
+width:400;
+}
+.aviso{
+color:red;
+}
+
+@media (max-width:767px){
+.menu ul li:first-child{
+margin-left:0px;
+}
+.menu ul li{
+width:100px;
+}
+.menu{
+	height:50px;
+	
+}
+img.logo {
+  width: 200px;
+}
+
+
+}
+@media (max-width:480px){
+	.menu{
+		font-size:12;
+	}
+	.menu ul li{
+		width:85px
+	}
+	form.formlogin {
+  margin-left: auto;
+  width: initial;
+}
+	
+}
+@media (max-width:320px){
+	.menu{
+		font-size:8;
+		height:35
+	}
+	
+.login input {
+width: 190px;
+}
+}
